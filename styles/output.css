@@ -549,3 +549,14 @@ video {
   box-sizing: border-box;
   padding: 0px;
 }
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.main-layout {
+  display: flex;
+}

@@ -7,5 +7,9 @@
 }
 
 body{
-    @apply
+    @apply text-black bg-[#f6f6f6] 
+}
+
+.main-layout{
+    @apply flex
 }
