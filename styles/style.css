@@ -9,7 +9,7 @@
 }
 
 body{
-    @apply text-black bg-[#f6f6f6] w-full
+    @apply text-black bg-[#f6f6f6] w-full font-iranyekan
 }
 
 .main-layout{
