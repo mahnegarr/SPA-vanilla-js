@@ -9,7 +9,7 @@
 }
 
 body{
-    @apply text-black bg-[#f6f6f6] w-full font-iranyekan
+    @apply text-black bg-[#f6f6f6] w-full 
 }
 
 .main-layout{
@@ -28,6 +28,3 @@ nav{
     @apply no-underline transition-all duration-[0.5s] ease-out text-gray-600 block py-3 px-2 hover:bg-[#eef2f8] hover:text-[#2c4982] hover:rounded-[1.5rem]
 }
 
-#app{
-    @apply 
-}

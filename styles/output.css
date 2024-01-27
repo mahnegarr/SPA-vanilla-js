@@ -589,6 +589,11 @@ nav {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
   text-decoration-line: none;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .nav__link:hover {
@@ -599,6 +604,3 @@ nav {
   color: rgb(44 73 130 / var(--tw-text-opacity));
 }
 
-/* #app{
-    @apply 
-} */
