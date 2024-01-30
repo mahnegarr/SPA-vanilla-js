@@ -1,6 +1,6 @@
-import dashboard from "./pages/dashboard";
-import posts from "./pages/posts";
-import products from "./pages/products";
+import dashboard from "./pages/dashboard.js";
+import posts from "./pages/posts.js";
+import products from "./pages/products.js";
 
 function router() {
   const paths = [
