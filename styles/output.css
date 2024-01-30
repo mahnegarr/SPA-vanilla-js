@@ -604,3 +604,7 @@ nav {
   color: rgb(44 73 130 / var(--tw-text-opacity));
 }
 
+#app {
+  height: 20vh;
+  padding: 1rem;
+}
