@@ -9,4 +9,16 @@ function isRegister(username) {
     return;
   }
 }
+const ads = new Set();
+function addAdvertise(title, username) {
+  if (!isRegister(username)) {
+    console.log("invalid username");
+    return;
+  }
+  if (ads.has(title)) {
+    console.log("invalid title");
+  }
 
+  ads.add(title);
+  console.log("posted successfully");
+}
