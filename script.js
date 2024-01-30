@@ -1,8 +1,12 @@
+import dashboard from "./pages/dashboard";
+import posts from "./pages/posts";
+import products from "./pages/products";
+
 function router() {
   const paths = [
-    { path: "/", view: () => console.log("dashboard page") },
-    { path: "/posts", view: () => console.log("posts page") },
-    { path: "/products", view: () => console.log("products page") },
+    { path: "/", view: dashboard },
+    { path: "/posts", view: posts },
+    { path: "/products", view: products },
   ];
 
   const potentialPaths = paths.map((item) => {
@@ -19,7 +23,7 @@ function router() {
       route: { path: "/not-found", view: () => console.log("not found page") },
     };
   }
-
+  document.getElementById("app").innerHTML = match.route.view();
   console.log(match.route.view());
 }
 function navigateTo(url) {
