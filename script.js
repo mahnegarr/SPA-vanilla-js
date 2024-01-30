@@ -1,12 +1,12 @@
 import dashboard from "./pages/dashboard.js";
 import posts from "./pages/posts.js";
-import products from "./pages/products.js";
+import Products from "./pages/products.js";
 
 function router() {
   const paths = [
     { path: "/", view: dashboard },
     { path: "/posts", view: posts },
-    { path: "/products", view: products },
+    { path: "/products", view: Products },
   ];
 
   const potentialPaths = paths.map((item) => {
@@ -24,15 +24,16 @@ function router() {
     };
   }
   document.getElementById("app").innerHTML = match.route.view();
-  console.log(match.route.view());
+
 }
+
 function navigateTo(url) {
   history.pushState(null, null, url);
   router();
 }
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
-    if (e.target.matches([data - link])) {
+    if (e.target.matches("[data-link]")) {
       e.preventDefault();
       navigateTo(e.target.href);
     }

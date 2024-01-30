@@ -1,5 +1,6 @@
-const products =()=>{
-    return `<h1>Products Page</h1>`
-}
+const Products = () => {
+  return `<h1>Products Page</h1>`;
+  
+};
 
-export default products
+export default Products;
