@@ -1,0 +1,1 @@
+(new class{getName(){console.log("helloooooooooo")}}).getName(),console.log("testing"),console.log("hi");
