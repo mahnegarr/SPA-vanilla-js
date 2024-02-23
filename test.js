@@ -9,3 +9,8 @@ class App{
     console.log("helloooooooooo");
   }
 }
+
+new App().getName()
+
+console.log("testing");
+console.log("hi");
